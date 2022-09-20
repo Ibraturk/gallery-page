@@ -1,0 +1,65 @@
+:root{
+    --green-nerea: #04706E;
+    --light-green-nerea: #E1FFBD;
+    --font-Montserrat: 'Montserrat', sans-serif;
+    --font-John-mayer: 'John Mayer';
+
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+    
+html{
+    font-size: 62.5%;
+    font-family: var(--font-Montserrat);
+    background-color: #FAFAFA;
+    color: var(--green-nerea);
+}
+/* Icons */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+.footer-text-container{
+    width: 100%;
+    max-width: 287px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--text-footer);
+
+}
+.footer-text-container a{
+    color: var(--text-footer);
+    font-weight: bold;
+    text-decoration: none;
+}
