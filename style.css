@@ -143,6 +143,64 @@ html{
     grid-row: 3;
     
 }
+/* Travel card */
+.travel-card{
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+    background-image: url(./assets/bari1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.glasmorph-container{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+    background: rgba(33, 49, 47, 0.38);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+}
+.card-title{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffffb5;
+
+}
+.card-body{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 18px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #ebfdfffd;
+}
+.button-card{
+    background: rgba(27, 97, 89, 0.76);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
 footer{
     width: 100%;
     height: auto;
