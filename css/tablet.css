@@ -1,0 +1,7 @@
+.gallery-container{
+   max-width: 500px;
+   margin: 0 auto;
+}
+ .gallery-grid{
+    grid-auto-rows: minmax(100px, auto);
+}
